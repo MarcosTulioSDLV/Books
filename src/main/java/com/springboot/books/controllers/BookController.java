@@ -2,7 +2,9 @@ package com.springboot.books.controllers;
 
 import com.springboot.books.dtos.BookRequestDto;
 import com.springboot.books.dtos.UpdateBookRequestDto;
+import com.springboot.books.models.Author;
 import com.springboot.books.models.Book;
+import com.springboot.books.models.Publisher;
 import com.springboot.books.services.BookService;
 import jakarta.validation.Valid;
 import org.springframework.beans.BeanUtils;

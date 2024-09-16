@@ -11,7 +11,7 @@ import java.util.List;
 @Entity
 @Table(name = "TB_BOOK")
 @NoArgsConstructor @AllArgsConstructor
-@Getter @Setter @ToString(exclude = "authors")
+@Getter @Setter @ToString
 @EqualsAndHashCode
 public class Book {
 

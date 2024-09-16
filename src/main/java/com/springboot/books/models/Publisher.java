@@ -11,7 +11,7 @@ import java.util.List;
 @Table(name = "TB_PUBLISHER")
 @NoArgsConstructor @AllArgsConstructor
 @Getter @Setter @ToString(exclude = "books")
-@EqualsAndHashCode
+@EqualsAndHashCode(exclude = "books")
 public class Publisher {
 
     @Id
