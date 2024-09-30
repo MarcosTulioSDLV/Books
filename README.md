@@ -1,4 +1,4 @@
-# Products Rest API
+# Books Rest API
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white)  ![H2 Database](https://img.shields.io/badge/H2%20Database-018bff?style=for-the-badge&logoColor=white) ![OpenApi](https://img.shields.io/badge/Docs-OpenAPI-success?style=for-the-badge&logo=swagger)
 
 I developed a Rest API to manage books and their publishers and authors, built by using **Spring Boot and Java**, providing CRUD (Create, Read, Update, Delete) operations. This API allows to store book information, such as title, edition etc. it also supports the storage of publisher information, including name, country, city etc. Additionally, it supports the storage of author information like fullname, coutry, city etc.
